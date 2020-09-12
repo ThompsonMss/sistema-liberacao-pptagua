@@ -1,0 +1,165 @@
+html, body, .liberado{
+	height: 100%;
+}
+.body-index{
+	background: black;
+}
+.servicofora{
+	text-align: center;
+	font-size: 2em;
+	padding-top: 30px;
+}
+.dataservico{
+	text-align: center;
+	font-size: 2em;
+	padding-top: 30px;
+}
+.botaoVoltar{
+	text-align: center;
+	width: 130px;
+	height: 50px;
+	margin-top: 150px;
+	background: #007bff;
+	color: white;
+	border-radius: 15px;
+	transition: all 1s; 
+}
+.botaoVoltar a{
+	text-decoration: none;
+	color: white;
+}
+.botaoVoltar:hover{
+	background: #75b1f1;
+}
+
+.title{
+	text-align: center;
+	font-size: 2em;
+	color: white;
+	margin-top: 20px;
+}
+.img-logo{
+	margin-top: 20px;
+}
+.img-logo img{
+	width: 150px;
+}
+.alerta{
+	font-size: 2em;
+	color: red;
+	text-align: center;
+	margin-top: 20px;
+}
+.form-index{
+	margin-top: 40px;
+	text-align: center;
+	width: 100%;
+}
+.input-index input{
+	width: 100%;
+	padding: 10px;
+	text-align: center;
+	border-radius: 5px;
+	font-size: 2em;
+}
+.input-index input:focus{
+	border: 3px solid #ffc107;
+}
+.botao-index input{
+	width: 100%;
+	padding: 10px;
+	text-align: center;
+	border-radius: 5px;
+	font-size: 2em;
+	border: none;
+	background: #ffc107;
+	cursor: pointer;
+	transition: all .5s;
+}
+.botao-index input:hover{
+	background: none;
+	border: 3px solid #daa507;
+	color: #daa507
+}
+.site{
+	position: absolute;
+	bottom: 5px;
+	text-align: center;
+	width: 100%;
+}
+.site span{
+	color: white;
+	font-size: 1.5em;
+}
+
+.body-fail{
+	background: red;
+}
+.fail{
+	margin-top: 30px; 
+}
+.fail span{
+	font-size: 3em;
+	color: white;
+	text-align: center;
+}
+.botaoVoltarFail{
+	text-align: center;
+	width: 130px;
+	height: 50px;
+	margin-top: 150px;
+	background: black;
+	color: white;
+	border-radius: 15px;
+	transition: all 1s; 
+}
+.botaoVoltarFail a{
+	text-decoration: none;
+	color: white;
+}
+.botaoVoltarFail a:hover{
+	color: black;
+}
+.botaoVoltarFail:hover{
+	background: white;
+	color: black;
+}
+.liberado{
+	position: absolute;
+	z-index: 101;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	padding-top: 30px;
+	background: green;
+	font-size: 2.5em;
+	color: white;
+	display: none;
+	text-align: center;
+}
+.btn-des input{
+	margin-top: 70px;
+	width: 100%;
+	cursor: pointer;
+	border-radius: 5px;
+	background: red;
+	color: white;
+}
+@media screen and (min-width: 600px){
+	.alerta{
+		margin-top: 100px;
+	}
+	.form-index{
+		margin-top: 100px;
+	}
+}
+@media screen and (min-width: 800px){
+	.alerta{
+		margin-top: 100px;
+	}
+	.form-index{
+		margin-top: 100px;
+	}
+	
+}
